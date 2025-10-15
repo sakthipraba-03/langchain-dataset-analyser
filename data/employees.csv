@@ -1,0 +1,9 @@
+employee_id,first_name,last_name,department,role,salary,hire_date,manager_id,location,performance_score
+1,Alice,Patel,Engineering,Software Engineer,85000,2020-03-15,5.0,Bengaluru,4
+2,Bob,Kumar,Engineering,Data Engineer,82000,2019-08-01,5.0,Bengaluru,5
+3,Carla,Rao,HR,HR Manager,75000,2018-06-20,,Chennai,3
+4,David,Shah,Sales,Sales Executive,60000,2021-11-10,7.0,Mumbai,4
+5,Emma,Das,Engineering,Engineering Manager,120000,2016-09-05,,Bengaluru,5
+6,Frank,Lee,Finance,Accountant,55000,2022-01-25,8.0,Delhi,3
+7,Gauri,Iyer,Sales,Sales Manager,98000,2017-02-14,,Mumbai,4
+8,Hari,Nair,Support,Support Engineer,48000,2023-05-18,5.0,Hyderabad,2
