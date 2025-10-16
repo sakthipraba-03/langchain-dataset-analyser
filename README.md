@@ -8,22 +8,18 @@ This project is an interactive dataset analysis tool powered by **LangChain** an
 dataset-analyser/
 │
 ├── data/
-│   └── employees.csv              # sample dataset
+│   └── employees.csv              # Sample dataset
 │
 ├── src/
-│   └── dataset_analyser.py        # main project code
+│   ├── main.py                    # Entry point for running the project
+│   ├── config.py                  # Loads environment and initializes LLM
+│   ├── schema.py                  # Defines the TypedDict schema (State)
+│   ├── prompts.py                 # Stores all ChatPromptTemplate definitions
+│   ├── pipeline.py                # Contains all functions and chain logic
 │
-├── requirements.txt               # required Python libraries
-└── README.md                      # project documentation
+├── requirements.txt               # Required Python libraries
+└── README.md                      # Project documentation
 ```
-
-> **Note:** The `.env` file is **not inside this folder**.  
-> In this project, the environment file is located in another directory, and it is accessed directly through the path specified in your code:
-> ```python
-> load_dotenv("../Langchain/.env")
-> ```
-> This means the code reads your API key from that external `.env` file and does not require a local `.env` file in this folder.
-
 
 ## ⚙️ Setup Instructions
 
